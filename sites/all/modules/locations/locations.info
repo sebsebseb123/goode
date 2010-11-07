@@ -1,0 +1,8 @@
+core = "6.x"
+dependencies[] = "features"
+dependencies[] = "text"
+description = "Add a "locations" type."
+features[content][] = "locations-field_details"
+features[node][] = "locations"
+name = "Locations"
+package = "Features"
