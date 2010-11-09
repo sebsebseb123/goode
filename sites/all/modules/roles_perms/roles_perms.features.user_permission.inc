@@ -11,6 +11,7 @@ function roles_perms_user_default_permissions() {
     'name' => 'access administration menu',
     'roles' => array(
       '0' => 'editor',
+      '1' => 'writer',
     ),
   );
 
@@ -18,7 +19,9 @@ function roles_perms_user_default_permissions() {
   $permissions['display drupal links'] = array(
     'name' => 'display drupal links',
     'roles' => array(
-      '0' => 'writer',
+      '0' => 'anonymous user',
+      '1' => 'editor',
+      '2' => 'writer',
     ),
   );
 
