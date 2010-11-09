@@ -1,7 +1,7 @@
 core = "6.x"
 dependencies[] = "features"
 dependencies[] = "text"
-description = "Add a locations type."
+description = "Add content types."
 features[content][] = "locations-field_details"
 features[content][] = "locations-field_map"
 features[node][] = "locations"
